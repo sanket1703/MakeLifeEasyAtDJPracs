@@ -10,7 +10,7 @@ from email.mime.base import MIMEBase
 from email import encoders
 
 email_my = 'liberate.from.mu@gmail.com'
-password = 'djsce@12345'
+password = '##emailpassword##'
 message = 'This is my message'
 ##########################################################
 ###   ALWAYS CHECK ALL DETAILS BEFORE SENDING   ##########
@@ -32,14 +32,10 @@ File_name = 'p6'
 ############################################################
 msg = MIMEMultipart()
 msg.attach(MIMEText(message, 'plain'))
-
-
-name = ['Shrey D.','Samit K.','Saurav T.','Sheerang T.','Sakshi P.','Samiksha P.','Saakshi S.','Rutu G.','Sharayu B.','Sakshi U.','Shubh Nandu','Shruti S.','Shivesh J.','Sanay S.','Sanket S.','Siddharth T.','Sarvesh N.']
-sap = ['60004180102','60004180093','60004180097','60004180101', '60004180091', '60004180092', '60004180089', '60004180087', '60004180098', '60004180090', '60004180104', '60004180103', '60004180100', '60004180094', '60004180095','60004180106','60004180096']
-email = ['shreydedhia@yahoo.in','samitkk18@gmail.com','sauravtiwari27@gmail.com','shreerang2604@gmail.com', 'sakshi16.patil2000@gmail.com', 'samiksha16.patil@gmail.com', 'shahsaakshi25@gmail.com', 'rutugaglani@gmail.com', 'bokde.sharayu@gmail.com', 'sakshiuppoor@gmail.com', 'shubh.b.nandu@gmail.com', 'sawantshruti334@gmail.com', 'shubjha12@gmail.com', 'sanayshah2@gmail.com', 'sanketyou8@gmail.com','siddharthtrivedi19@gmail.com','sarveshnavare7@gmail.com']
-#email  = ['sanketyou8@gmail.com']
-#sap = ['60004180095']
-#name = ['Sanket S']
+#Put the details of the receiver below
+email  = ['sanketyou8@gmail.com'] 
+sap = ['60004180095']
+name = ['Sanket S']
 
 dec = input('Do you want to send e-mails?')
 if dec == 'y':
