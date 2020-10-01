@@ -74,17 +74,6 @@ for i in range(len(name)):
         os.mkdir('Experiment_'+Experiment)
         os.chdir('Experiment_'+Experiment)
     # For normal File operation
-    
-    # f = open(j+'.txt','w')
-    # dst = j+'.txt'
-    # #Change File Name
-    # f1 = open('/Users/apple/Desktop/Division_B2/'+File_name+'.txt','r') 
-    
-    # r = f1.read()
-    # # shutil.copy('/Users/apple/Desktop/untitled folder/test.txt',dst)
-    # f.write(info+'\n\n\n'+r)
-    # f1.close()
-    # f.close()
 
     base = Document()
     dst = j+'.docx'
@@ -113,6 +102,7 @@ for i in range(len(name)):
     msg['To'] = email[i]
     #Change subject here
     msg['Subject'] = Subject
+    
     #body = '''POSTLABS for Experiment 1 '''
     
     filename = os.path.basename(file_location)
